@@ -8,10 +8,10 @@ public class Food {
         foodName = food;
         foodQuantity = quantity;
     }
-    public  String GetFood(){
+    public  String getFood(){
         return  foodName;
     }
-    public float GetQuantity(){
+    public float getQuantity(){
         return foodQuantity;
     }
 }

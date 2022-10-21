@@ -11,5 +11,14 @@ public class Potion {
         potionEffect = effect;
     }
 
+    public String getPotionName(){
+        return potionName;
+    }
+    public float getPotionQuantity(){
+        return  potionQuantity;
+    }
+    public String getPotionEffect(){
+        return potionEffect;
+    }
 
 }
