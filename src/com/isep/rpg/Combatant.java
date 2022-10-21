@@ -9,7 +9,7 @@ public abstract class Combatant {
         healthPoint = health;
     }
 
-    public String getCombatantName(){
+    public String getName(){
         return combatantName;
     }
     public int getHealthPoint(){
